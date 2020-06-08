@@ -63,5 +63,11 @@ module.exports = {
       chunks: ["index", "another"],
       filename: "another.html",
     }),
+    new HtmlWebpackPlugin({
+        template: "./src/pages/zagiel.html",
+        inject: true,
+        chunks: ["index", "another"],
+        filename: "zagiel.html",
+    }),
   ],
 };
